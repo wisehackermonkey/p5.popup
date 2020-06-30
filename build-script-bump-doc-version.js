@@ -16,3 +16,17 @@ try {
   catch (error) {
     console.error('Error occurred:', error);
   }
+
+  
+  try {
+      const results = replace.sync({
+        files: 'p5.popup.js',
+        // example of what regex does regexr.com/57k30
+        from: /(v)(\d+)\.(\d+)\.(\d+)/g,
+        to: "v"+version,
+      });
+      console.log('Replacement results:', results);
+    }
+    catch (error) {
+      console.error('Error occurred:', error);
+    }
