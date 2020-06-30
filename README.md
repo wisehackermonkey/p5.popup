@@ -25,11 +25,11 @@ oranbusiness@gmail.com
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/X.XX.X/addons/p5.sound.min.js"></script>
 ```
 ```html
-    <script src="https://cdn.jsdelivr.net/npm/p5.popup@X.X.X/p5.popup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5.popup@0.0.2/p5.popup.min.js"></script>
 
     OR
 
-    <script src="https://unpkg.com/p5.popup@X.X.X/p5.popup.min.js"></script>
+    <script src="https://unpkg.com/p5.popup@0.0.2/p5.popup.min.js"></script>
 ```
 ```text
 	  
