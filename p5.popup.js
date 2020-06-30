@@ -6,10 +6,10 @@ oranbusiness@gmail.com
 20200629
 MIT License
 
-v0.0.9
+v0.1.0
 */
 
-console.log("### p5.popup v0.0.9 ###");
+console.log("### p5.popup v0.1.0 ###");
 
 p5.prototype.popup = (
     message,
