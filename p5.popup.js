@@ -18,7 +18,18 @@ p5.prototype.popup = (
     y = height / 2,
     size = Math.max(innerWidth, innerHeight) / 50
 ) => {
-    if (frameCount <= seconds * frameRate()) {
+    let stop_frame_number = seconds * frameRate();
+    if (frameCount <= stop_frame_number) {
+        let opacity_value = floor(
+            map(
+                abs(frameCount - stop_frame_number),
+                0,
+                stop_frame_number,
+                0,
+                255
+            )
+        );
+
         push();
         rectMode(CENTER);
         textAlign(CENTER, CENTER);
@@ -45,11 +56,10 @@ p5.prototype.popup = (
                 font_size * (longest_newline_string_width / 2) + buffer;
             popup_height = (newline_count + 3) * font_size + buffer;
             text_offset_y = 11; //map(mouseY, 0, height, 1,100)
-            print(text_offset_y);
         }
 
         noStroke();
-        fill("pink");
+        fill(255, 192, 203, opacity_value); //pink
 
         rect(
             x,
@@ -59,9 +69,9 @@ p5.prototype.popup = (
             5 // rounded corners
         );
 
-        fill("#00a1d3"); //light blue
+        fill(0, 161, 211, opacity_value); //light blue
 
-        text(message, x, y );
+        text(message, x, y);
         pop();
     }
 };
