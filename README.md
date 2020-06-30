@@ -1,5 +1,6 @@
 # p5.popup.js
- p5.js simple popup library used for displaying instructions for sketches
+#### p5.js simple popup library used for displaying instructions for sketches
+![auto update docs version, minify and publish to npm](https://github.com/wisehackermonkey/p5.popup/workflows/auto%20update%20docs%20version,%20minify%20and%20publish%20to%20npm/badge.svg)
 ```
 by oran collins
 github.com/wisehackermonkey
@@ -68,10 +69,15 @@ popup("arrows to move, goal is to get the blocks", <show for n seconds>)
 popup([ARROWS,MOUSE],"e key breaks the walls", <show for n seconds>)
 ```
 
-
 # publish npm package
 ```
+npm version patch
 npm publish
+```
+# how to publish local tag 
+## [Sharing Tags](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
+```
+git push origin v0.0.4
 ```
 # TODO
 - github action minifiy
