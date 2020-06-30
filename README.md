@@ -48,7 +48,7 @@ oranbusiness@gmail.com
 # Brain storm
 ## inital idea
 ```
-p5.js popup for instructions on how to play game, mobile and desktop friendly
+p5.js popup for instructions on how to play game, mobile and desktop  friendly
 ```
 
 ### add: one liner
