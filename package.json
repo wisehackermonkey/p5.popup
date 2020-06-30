@@ -8,6 +8,7 @@
   },
   "scripts": {
     "build": "minify  p5.popup.js > p5.popup.min.js",
+    "bump": "node build-script-bump-doc-version.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -28,6 +29,8 @@
   },
   "homepage": "https://github.com/wisehackermonkey/p5.popup#readme",
   "devDependencies": {
-    "minify": "^5.1.1"
-  }
+    "minify": "^5.1.1",
+    "replace-in-file": "^6.1.0"
+  },
+  "dependencies": {}
 }
