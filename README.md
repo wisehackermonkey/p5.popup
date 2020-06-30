@@ -1,6 +1,8 @@
 # p5.popup.js
 #### p5.js simple popup library used for displaying instructions for sketches
 ![auto update docs version, minify and publish to npm](https://github.com/wisehackermonkey/p5.popup/workflows/auto%20update%20docs%20version,%20minify%20and%20publish%20to%20npm/badge.svg)
+[![Python](https://img.shields.io/badge/P5.js-Enabled-pink.svg)](https://shields.io/)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ```
 by oran collins
 github.com/wisehackermonkey
