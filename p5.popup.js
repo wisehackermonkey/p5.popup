@@ -5,6 +5,8 @@ github.com/wisehackermonkey
 oranbusiness@gmail.com
 20200629
 MIT License
+
+v0.0.1
 */
 
 console.log("### p5.popup v0.0.1 ###");
