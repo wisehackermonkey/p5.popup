@@ -61,7 +61,7 @@ p5.prototype.popup = (
 
         fill("#00a1d3"); //light blue
 
-        text(message, x, y + text_offset_y);
+        text(message, x, y );
         pop();
     }
 };
