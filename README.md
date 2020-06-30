@@ -29,7 +29,7 @@ oranbusiness@gmail.com
 
     OR
 
-    <script src="https://unpkg.com/p5.popup.js@X.X.X/p5.popup.min.js"></script>
+    <script src="https://unpkg.com/p5.popup@X.X.X/p5.popup.min.js"></script>
 ```
 ```text
 	  
@@ -66,4 +66,5 @@ popup([ARROWS,MOUSE],"e key breaks the walls", <show for n seconds>)
 ```
 # TODO
 - github action minifiy
-- 
+- auto lint
+- todo add popupMode(BOTTOM)
