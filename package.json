@@ -1,0 +1,33 @@
+{
+  "name": "p5.popup",
+  "version": "0.0.1",
+  "description": "p5.js simple popup library used for displaying instructions for sketches",
+  "main": "p5.popup.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "minify  p5.popup.js > p5.popup.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wisehackermonkey/p5.popup.git"
+  },
+  "keywords": [
+    "simple",
+    "popup",
+    "p5.js",
+    "p5js",
+    "library"
+  ],
+  "author": "wisehackermonkey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wisehackermonkey/p5.popup/issues"
+  },
+  "homepage": "https://github.com/wisehackermonkey/p5.popup#readme",
+  "devDependencies": {
+    "minify": "^5.1.1"
+  }
+}

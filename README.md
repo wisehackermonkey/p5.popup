@@ -11,8 +11,8 @@ oranbusiness@gmail.com
 
 # CDN Example
 ## CDN links
-+ https://cdn.jsdelivr.net/npm/p5.p5.popup  
-+ https://unpkg.com/p5.p5.popup
++ https://cdn.jsdelivr.net/npm/p5.popup  
++ https://unpkg.com/p5.popup
 ## How to use CDN links
 ### Add one of the following two CDN options to your p5.js sketches html file 
 #### Replace X.X.X with the latest version number
@@ -25,7 +25,7 @@ oranbusiness@gmail.com
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/X.XX.X/addons/p5.sound.min.js"></script>
 ```
 ```html
-    <script src="https://cdn.jsdelivr.net/npm/p5.p5.popup@X.X.X/p5.popup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5.popup@X.X.X/p5.popup.min.js"></script>
 
     OR
 
@@ -63,6 +63,12 @@ popup("arrows to move, goal is to get the blocks", <show for n seconds>)
 
 //have templates for common input types
 popup([ARROWS,MOUSE],"e key breaks the walls", <show for n seconds>)
+```
+
+
+# publish npm package
+```
+npm publish
 ```
 # TODO
 - github action minifiy
