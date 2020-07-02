@@ -60,6 +60,7 @@ p5.js popup for instructions on how to play game, mobile and desktop  friendly
 ```javascript
 instructions("arrows to move, goal is to get the blocks")
 
+TODO not implemented
 //have templates for common input types
 instructions([ARROWS,MOUSE],"e key breaks the walls")
 ```
@@ -73,7 +74,7 @@ popup([ARROWS,MOUSE],"e key breaks the walls", <show for n seconds>)
 ```
 
 # publish npm package
-```
+```bash
 npm version patch
 npm publish
 ```
@@ -86,6 +87,7 @@ git push origin v0.0.4
 - github action minifiy
 - auto lint
 - todo add popupMode(BOTTOM)
+- add default messages like ARROWS, and MOUSE etc
 
 # Links
 - [replace-in-file (npm) used in build script ](https://www.npmjs.com/package/replace-in-file)
